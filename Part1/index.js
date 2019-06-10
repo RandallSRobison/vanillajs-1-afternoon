@@ -26,6 +26,8 @@ function play(clickedId) {
   const bottomMid = board[7];
   const bottomRight = board[8];
 
+  const reset = document.getElementById('reset')
+
   if (
     topRight !== undefined &&
     topRight === midRight &&
